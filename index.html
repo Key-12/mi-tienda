@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>El Ropero</title>
+        <!--Conectamos el archivo CSS-->
+        <link rel="stylesheet" href="CSS/estilos.css">
+    </head>
+    <body>
+        <!--ENCABEZADOS-->
+        <header>
+            <h1>El Ropero</h1>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#stock">Stock</a>
+            </nav>
+        </header>
+        <!--Inicio-->
+        <section id="inicio" class="inicio">
+            <h2> Las mejores prendas para hombres</h2>
+            <p>
+                Ropa de calidad a los mejores precios.
+            </p>
+            <button onclick="mostrarMensaje()">
+                Ver Stock
+            </button>
+        </section>
+        <!--STOCK-->
+        <section id="stock" class="stock">
+            <h2>Nuestro Stock</h2>
+            <div class="prendas">
+                <div class="prenda">
+                    <img src="IMG/chompa.png" alt="Sudadera Marron">
+                    <h3>Sudadera Marron</h3>
+                    <p>Cuello camisero</p>
+                    <strong>S/. 45</strong>
+            </div>
+            <div class="prendas">
+                <div class="prenda">
+                    <img src="IMG/pantalon.png" alt="Jeans Azul">
+                    <h3>Jean Azul</h3>
+                    <p> Jean Baggy</p>
+                    <strong>S/. 50</strong>
+            </div>
+            <div class="prendas">
+                <div class="prenda">
+                    <img src="IMG/polo.png" alt="Polo Califronia">
+                    <h3>Polo Califronia</h3>
+                    <p> Cuello camisero, manga corta</p>
+                    <strong>S/. 40</strong>
+                </div>
+            </div>
+        </section>
+        <!--PIE DE PAGINA-->
+        <footer>
+            <p>
+                &copy; 2026 El Ropero
+            </p>
+        </footer>
+        <!--Conectamos al JavaScript-->
+        <script src="JS/script.js"></script>
+    </body>
+</html>

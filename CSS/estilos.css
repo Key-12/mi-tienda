@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*Toda a web*/
+body{
+font-family: Arial;
+background-color: #fff8e7;
+color: #333;
+}
+/*Encabezado*/
+header{
+background-color: #000000;
+color: white;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+/*Nombre de la Tienda*/
+header h1{
+font-size: 30px;
+}
+/*Enlaces*/
+nav a{
+color: white;
+text-decoration: none;
+margin-left: 15px;
+}
+/*Inicio*/
+.inicio{
+text-align: center;
+padding: 40px 20px;
+background-color: #333;
+}
+.inicio h2{
+color: white;
+font-size: 35px;
+margin-bottom: 15px ;
+}
+.inicio p{
+margin-bottom: 20px;
+}
+/*boton*/
+button{
+background-color: #000000;
+color: white;
+border: none;
+padding: 12px 25px;
+border-radius: 5px;
+cursor: pointer
+}
+button:hover{
+background-color: #4e4c4c;
+}
+/*Stock*/
+#stock{
+text-align: center;
+padding: 50px 20px;
+}
+#stock h2{
+color:#000000;
+margin-bottom: 30px;
+}
+/*Contenedor de las prendas*/
+.prendas{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+/*Tarjetas*/
+.prenda{
+background-color: white;
+width: 250px;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 3px 10px #000000;
+box-sizing: border-box;
+}
+/*Ajuste de las imagenes*/
+.prenda img{
+/*Para que no sea mas ancha que la tarjeta y se vea bien*/
+width: 100%;
+/*Altura fija para todas las imagenes*/
+height: 250px;
+/*Recortar sin deformar la imagen*/
+object-fit: cover;
+object-position: center;
+border-radius: 8px;
+display: block;
+margin-bottom: 10px;
+}
+.prenda h3{
+color: #000000;
+margin: 10px 0;
+}
+.prenda p{
+margin-bottom: 10px;
+}
+.prenda strong{
+color: #000000;
+font-size: 20px;
+}
+/*Pie de pagina*/
+footer{
+background-color: #000000;
+color: white;
+text-align: center;
+padding: 10px;
+}
