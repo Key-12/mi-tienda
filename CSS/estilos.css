@@ -111,3 +111,19 @@ color: white;
 text-align: center;
 padding: 10px;
 }
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  #stock, .stock, .productos {
+/* 1 prenda por fila en celular */
+    grid-template-columns: 1fr;
+  }
+  .prenda, .card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
